@@ -116,6 +116,7 @@ body {
   margin: 0 auto 1.5rem;
   position: relative;
   box-sizing: border-box;
+  gap: 0.5rem; 
 }
 
 .chat-watermark {
@@ -150,8 +151,6 @@ body {
   position: relative;
   z-index: 2; /* watermark 위에 쌓이도록 */
 }
-
-
 .message {
   padding: 0.6rem 1rem;
   border-radius: 1rem;
@@ -159,8 +158,8 @@ body {
   max-width: 80%;
   word-wrap: break-word;
   font-size: 0.95rem;
-  line-height: 1.4;
-  margin-bottom: 0.6rem;
+  line-height: 1.6;
+  margin-bottom: 0.8rem;
 }
 
 .user-message {
@@ -171,13 +170,13 @@ body {
 
 .bot-response {
   background-color: #f8f9fa;
-  max-width: 60%;
+  max-width: 90%;
   margin-right: auto;
   text-align: left;
 }
 
 .response-image {
-  max-width: 30%;
+  max-width: 220px;
   height: auto;
   margin-top: 1rem;
   border-radius: 0.5rem;
@@ -187,8 +186,6 @@ body {
   width: 100%;
   margin-top: 0.5rem;
 }
-
-
 .input-area {
   position: absolute;
   bottom: 2rem;

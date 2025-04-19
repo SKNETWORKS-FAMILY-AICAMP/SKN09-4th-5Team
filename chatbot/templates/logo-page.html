@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{% load i18n %}{% trans "로고 페이지" %}</title>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'css/logo-page.css' %}" />
+</head>
+<body>
+  <div class="logo-container">
+    <!-- 로고 클릭 시 landing/ 페이지로 이동 -->
+    <a href="{% url 'landing_page' %}">
+      <img src="{% static 'image/국립중앙박물관.png' %}" alt="{% trans '국립중앙박물관 로고' %}" class="logo" />
+    </a>
+  </div>
+
+  <script src="{% static 'js/logo-page.js' %}"></script>
+</body>
+</html>
