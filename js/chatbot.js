@@ -50,9 +50,9 @@ const translations = {
     const botDiv = document.createElement('div');
     botDiv.className = 'message bot-response';
     botDiv.innerHTML = `
-      고려청자는 비색 유약과 상감 기법으로 유명합니다.
+      이 작품은 김수철의 작품으로 간략한 필치와 단순한 형태, 엷지만 선명한 색채가 두드러집니다. 산과 바위의 음영 표현 없이 윤곽선만으로 표현되어 김수철 그림의 특징인 간결함이 잘 드러나 있습니다.
       <br>
-      <img src="image/ccc.jpeg" alt="고려청자" class="response-image">
+      <img src="image/winter-landscape.png" alt="겨울산수" class="response-image">
       <audio controls class="response-audio">
         <source src="sample.mp3" type="audio/mpeg">
         오디오 지원 안됨

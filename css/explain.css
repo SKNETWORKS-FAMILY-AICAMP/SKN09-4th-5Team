@@ -171,7 +171,7 @@ body {
   max-height: 100%; /* 이미지 높이도 부모 높이에 맞추도록 설정 */
   object-fit: contain; /* 이미지 비율 유지하며 영역에 맞춤 */
   border-radius: 1rem; 
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); 
+  box-shadow: 3px 2px 8px rgba(0, 0, 0, 0.08); 
 }
 
 
@@ -179,12 +179,20 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;   /* ✅ 핵심 */
+  width: 100%;
 }
 
 .how-section3 h2 {
   margin: 0;
+  font-size: 1.7rem;
+  font-weight: 650;
 }
 
+.how-section3 h2 strong {
+  font-family: 'Saira Stencil One', sans-serif;
+  font-size: 1.9rem;
+}
 
 /* 슬라이드 인디케이터 및 입장 버튼 스타일 - 사용자 코드 유지 */
 .slide-indicator {
